@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -259,6 +260,10 @@
     <Compile Include="Migrations\201611301415159_MoviesTableUpdate.Designer.cs">
       <DependentUpon>201611301415159_MoviesTableUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611301420178_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201611301420178_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201611301420178_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -335,6 +340,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -389,6 +395,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611301415159_MoviesTableUpdate.resx">
       <DependentUpon>201611301415159_MoviesTableUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611301420178_PopulateGenresTable.resx">
+      <DependentUpon>201611301420178_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
