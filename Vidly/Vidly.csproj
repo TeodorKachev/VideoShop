@@ -223,6 +223,34 @@
     <Compile Include="Migrations\201611290855060_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201611290855060_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611291416041_DoubleCheck.cs" />
+    <Compile Include="Migrations\201611291416041_DoubleCheck.Designer.cs">
+      <DependentUpon>201611291416041_DoubleCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611291430338_AddMembershipTypeName.cs" />
+    <Compile Include="Migrations\201611291430338_AddMembershipTypeName.Designer.cs">
+      <DependentUpon>201611291430338_AddMembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611291435490_PopulateMembershipTypeName.cs" />
+    <Compile Include="Migrations\201611291435490_PopulateMembershipTypeName.Designer.cs">
+      <DependentUpon>201611291435490_PopulateMembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611300933419_DeleteColumnMembershipType_Id.cs" />
+    <Compile Include="Migrations\201611300933419_DeleteColumnMembershipType_Id.Designer.cs">
+      <DependentUpon>201611300933419_DeleteColumnMembershipType_Id.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611301003486_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201611301003486_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201611301003486_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611301252359_PopulateCustomerBirthdates.cs" />
+    <Compile Include="Migrations\201611301252359_PopulateCustomerBirthdates.Designer.cs">
+      <DependentUpon>201611301252359_PopulateCustomerBirthdates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611301318507_MakeBirthdateNullable.cs" />
+    <Compile Include="Migrations\201611301318507_MakeBirthdateNullable.Designer.cs">
+      <DependentUpon>201611301318507_MakeBirthdateNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -297,6 +325,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +353,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611290855060_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201611290855060_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291416041_DoubleCheck.resx">
+      <DependentUpon>201611291416041_DoubleCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291430338_AddMembershipTypeName.resx">
+      <DependentUpon>201611291430338_AddMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291435490_PopulateMembershipTypeName.resx">
+      <DependentUpon>201611291435490_PopulateMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611300933419_DeleteColumnMembershipType_Id.resx">
+      <DependentUpon>201611300933419_DeleteColumnMembershipType_Id.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611301003486_AddBirthdateToCustomer.resx">
+      <DependentUpon>201611301003486_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611301252359_PopulateCustomerBirthdates.resx">
+      <DependentUpon>201611301252359_PopulateCustomerBirthdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611301318507_MakeBirthdateNullable.resx">
+      <DependentUpon>201611301318507_MakeBirthdateNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
