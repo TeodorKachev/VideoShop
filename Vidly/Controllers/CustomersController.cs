@@ -43,6 +43,7 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
             if (!ModelState.IsValid)
@@ -83,6 +84,7 @@ namespace Vidly.Controllers
 
             return View(customer);
         }
+
 
         public ActionResult Edit(int id)
         {
