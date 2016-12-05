@@ -19,7 +19,7 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         [Display(Name = "Membership Type")]
-        public virtual int? MembershipTypeId { get; set; }
+        public virtual int MembershipTypeId { get; set; }
 
         [Display(Name = "Date of Birth")]
         public DateTime? Birthdate { get; set; }
