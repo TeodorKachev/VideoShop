@@ -16,7 +16,7 @@ namespace Vidly.Models
 
         [Required]
         public Genre Genre { get; set; }
-        public int GenreId { get; set; }
+        public virtual int GenreId { get; set; }
 
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }

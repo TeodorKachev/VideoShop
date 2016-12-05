@@ -264,6 +264,10 @@
     <Compile Include="Migrations\201611301420178_PopulateGenresTable.Designer.cs">
       <DependentUpon>201611301420178_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612050912361_ChangeMembershipTypeType.cs" />
+    <Compile Include="Migrations\201612050912361_ChangeMembershipTypeType.Designer.cs">
+      <DependentUpon>201612050912361_ChangeMembershipTypeType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -402,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611301420178_PopulateGenresTable.resx">
       <DependentUpon>201611301420178_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612050912361_ChangeMembershipTypeType.resx">
+      <DependentUpon>201612050912361_ChangeMembershipTypeType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
