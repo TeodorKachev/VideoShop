@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace Vidly.Models
+namespace Vidly.Dtos
 {
-    public class Customer
+    public class CustomerDto
     {
         public int Id { get; set; }
 
         public string Name { get; set; }
 
         public bool IsSubscribedToNewsletter { get; set; }
-
-        public MembershipType MembershipType { get; set; }
 
         public virtual int MembershipTypeId { get; set; }
 
